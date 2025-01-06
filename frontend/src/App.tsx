@@ -1,8 +1,10 @@
+import ChatPage from "./pages/ChatPage"
+
 function App() {
 
   return (
-    <main>
-
+    <main className="w-full h-full">
+      <ChatPage/>
     </main>
   )
 }
