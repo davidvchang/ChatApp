@@ -14,7 +14,7 @@ const Chat:React.FC<ChatProps> = ({user, message, time}) => {
 
         <div className='flex flex-col w-full'>
             <div className=' flex justify-between items-center'>
-                <span className='text-lg font-medium'>{user}</span>
+                <span className='font-medium'>{user}</span>
                 <span className='text-sm text-slate-500 font-light'>{time}</span>
             </div>
             <p className='text-sm text-slate-500 font-light truncate w-full'>{message}</p>
