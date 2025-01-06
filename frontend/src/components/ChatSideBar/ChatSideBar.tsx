@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ChatSideBar = () => {
+const ChatSideBar:React.FC = () => {
   return (
     <section className='w-96 h-full'>
       
